@@ -40,7 +40,7 @@ codesign --sign - hello
 
 ♠️
 
-## v19
+## v19 (unreleased)
 
 Make use of the `--experimental-sea-config` flag to generate the binary blob ahead of injection.
 
@@ -50,7 +50,7 @@ Example config in sea-config.json:
 { "main": "hello.js", "output": "sea-prep.blob" }
 ```
 
-### References:
+## References:
 
 - [v18.16 SEA doc](https://nodejs.org/dist/latest-v18.x/docs/api/single-executable-applications.html)
   - currently doesn't mention binary signing, but the rest works
